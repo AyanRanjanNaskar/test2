@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    background-color: #eee9e9;
+}
+.navbar{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+}
+.navbar h4{
+    font-size: 2rem;
+    color: #000;
+    letter-spacing: 2px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.navbar h4:hover{
+    color: #fdbd0f;
+}
+.nav_items ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav_items ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    transition: 0.4s;
+    color: #201c1c;
+}
+
+.nav_items ul li a:hover{
+    color: #fdbd0f;
+}
+.hero{
+    background-image: url(maingg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 98vh;
+    top: 30px;
+}
+.interact{
+    display: flex;
+    width: 5rem;
+    justify-content: space-between;
+}
+
+.interact i{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hero_content{
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: 15rem;
+}
+.hero_content h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.hero_content p{
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 100%;
+    margin-bottom: 6rem;
+}
+.hero_button button{
+    padding: 20px 0 ;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 2rem;
+    background: transparent;
+    border: none; 
+}
+.hero_button{
+    display: flex;
+    align-items: center;
+}
+.hero_button i{
+    font-size: 2rem;
+}
+
+.sample1{
+   background-image: url("1.png");
+   height:30% ;
+}
